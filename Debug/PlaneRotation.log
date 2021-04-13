@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\sgal\documents\5th year\cs7gv5 - real-time animation\assignments\assignment 1\planerotation\planerotation\main.cpp(203): warning C4838: conversion from 'FT_Pos' to 'unsigned int' requires a narrowing conversion
+c:\users\sgal\documents\5th year\cs7gv5 - real-time animation\assignments\assignment 1\planerotation\planerotation\main.cpp(445): warning C4018: '<': signed/unsigned mismatch
+c:\users\sgal\documents\5th year\cs7gv5 - real-time animation\assignments\assignment 1\planerotation\planerotation\main.cpp(210): warning C4715: 'createFont': not all control paths return a value
+  PlaneRotation.vcxproj -> C:\Users\sgal\Documents\5th Year\CS7GV5 - Real-Time Animation\Assignments\Assignment 1\PlaneRotation\Debug\PlaneRotation.exe
