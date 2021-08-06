@@ -39,8 +39,8 @@ MESH TO LOAD
 ----------------------------------------------------------------------------*/
 // this mesh is a dae file format but you should be able to use any other format too, obj is typically what is used
 // put the mesh in your project directory, or provide a filepath for it here
-#define PLANE_MESH "./Models/planeBody.obj"
-#define PROPELLER_MESH "./Models/propeller.dae"
+#define PLANE_MESH "./models/planeBody.obj"
+#define PROPELLER_MESH "./models/propeller.dae"
 /*----------------------------------------------------------------------------
 ----------------------------------------------------------------------------*/
 
@@ -622,9 +622,9 @@ void updateScene() {
 void init()
 {
 	// Set up the shaders
-	shaderProgramID = CompileShaders("./Shaders/simpleVertexShader.txt", "./Shaders/simpleFragmentShader.txt");
-	skyboxShaderProgramID = CompileShaders("./Shaders/skyboxVertexShader.txt", "./Shaders/skyboxFragmentShader.txt");
-	textShaderProgramID = CompileShaders("./Shaders/textVertexShader.txt", "./Shaders/textFragmentShader.txt");
+	shaderProgramID = CompileShaders("./shaders/simpleVertexShader.txt", "./shaders/simpleFragmentShader.txt");
+	skyboxShaderProgramID = CompileShaders("./shaders/skyboxVertexShader.txt", "./shaders/skyboxFragmentShader.txt");
+	textShaderProgramID = CompileShaders("./shaders/textVertexShader.txt", "./shaders/textFragmentShader.txt");
 	generateSkybox();
 	cubemapTexture = loadCubemap(faces);
 	dataArray.push_back(PLANE_MESH);
