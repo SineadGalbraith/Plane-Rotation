@@ -1,4 +1,4 @@
-# Plane-Rotation
+# Plane Rotation
 
 The objective of this assignment was to create a simple model of an aeroplane and use the keyboard and mouse input to display the pitch, roll and yaw rotations of the plane.
 
